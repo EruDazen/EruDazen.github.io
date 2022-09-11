@@ -1,0 +1,158 @@
+*,
+html{
+  margin: 0;
+  padding:0;
+}
+
+.container{
+    margin:auto;
+    width: 960px;
+    background-color: white;
+    position: relative;
+}
+
+body{
+    font: 16px/28px arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#eaeaea;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+.header .judul{
+    margin-left: 15px;
+    padding-top: 15px;
+    font-size: 48px;
+    font-weight: bold;
+   
+}
+
+.header ul li{
+    display:inline-block;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 5px;
+    margin-top: 10px;
+    margin: bottom 10px;
+    display: inline-block;
+}
+
+.header a:hover{
+    color: skyblue;
+    background-color: grey;
+}
+
+.hero{
+    height: 350px;
+    background-image:url(clayman.jpg);
+    background-size: cover;
+    background-position: 0px -100px;
+    border-top: 5px solid salmon ;
+    border-bottom:5px solid skyblue
+
+}
+
+.main{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: 10px;
+    
+}
+
+.main p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.main .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.main .penulis{
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.footer{
+    background-color:#333
+}
+
+.footer .copy{
+    color:aliceblue;
+    text-align: center;
+    font-size:12px ;
+}
+
+.sidebar{
+    width: 300px;
+    float:right;
+    padding: 20px;
+}
+
+.sidebar img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right:10px ;
+}
+
+.sidebar p{
+    font: 12px/18px arial;
+}
+
+.git{
+    width: 150px;
+    height: 150px;
+    background-image:url(ribbon.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    position: absolute;
+    right:-1px
+}
+
+.top-bar{
+    background-color: skyblue;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 3px;
+    z-index: 3;
+    border-bottom: 1px solid salmon;
+    border-top: 1px solid salmon;
+}
+/*clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
